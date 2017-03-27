@@ -138,7 +138,7 @@ int main()
 	}
 	system("CLS");
 
-	for (int i = 0; i <= tCount; i++)
+	for (int i = 0; i < tCount; i++)
 	{
 		tNumber[i]->CloseTicket();
 		tNumber[i]->ShowTicket();
